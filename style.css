@@ -1,0 +1,161 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+.body{
+    font-family: 'Oswald', sans-serif;
+}
+#menu .navbar-nav .nav-link{
+    color: teal;
+}
+#header {
+    background-image: url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    position: relative;
+}
+#header .overlay{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.4;
+}
+@media(min-width:359px){
+    #header button{
+        width: 15rem;
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+#Explore .p-0 img{
+    position: relative;
+}
+#Explore .overlay{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background: palevioletred;
+    opacity: 0.5;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    margin-left: 6rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    margin-left: 10rem;
+}
+#Explore .col-md-6 img{
+    width: 100%;
+    height: 700px;
+}
+#icons h1::after{
+    content:'';
+    display: block;
+    width: 2rem;
+    height: 0.2rem;
+    background-color: rgb(156, 224, 19);
+    margin-left: 0.5rem;
+    border-radius: 20px;
+}
+#spaces {
+    background-image: url(../img/annie-spratt-sggw4-qDD54-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    margin-top: 3rem;
+    position: relative;
+}
+#spaces .overlay{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.4;
+}
+#spaces .mt-5{
+    margin-top: 100px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    text-align: center;
+}
+#friends .col-md-6 img{
+    width: 100%;
+    height: 500px;
+}
+#friends .p-0{
+    position: relative;
+}
+#friends .overlay{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background: palevioletred;
+    opacity: 0.5;
+}
+.carousel-item{
+    position: relative !important;
+}
+.black-overlay{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+}
+#carousel .h1::after{
+    content:'';
+    display: block;
+    width: 2rem;
+    height: 0.2rem;
+    background-color: teal;
+    margin-left: 0.5rem;
+    border-radius: 20px;
+}
+#gallery .col-4 img{
+    width: 100%;
+    height: 300px;
+}
+#gallery .col-8 img{
+    width: 100%;
+    height: 300px;
+}
+
+#gallery .n{
+    background-image: url(../img/michael-glass-q91XwU6Ypyk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 3rem;
+    height: 300px;
+    position: relative;
+}
+#gallery .overlay{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background: palevioletred;
+    opacity: 0.7;
+}
+#gallery .n-caption .mt-5::after{
+    content:'';
+    display: block;
+    width: 3rem;
+    height: 0.2rem;
+    background-color: white;
+    margin-left: 150px;
+    border-radius: 20px;
+}
